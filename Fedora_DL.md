@@ -21,7 +21,15 @@ static inline uint32_t detectHostSIMDExtensions()
   return SIMDExtension_DEFAULT;
 }
 ```
-4.  Install pytorch and caffe2
+4. Add the following code block to line 173
+```
+//#error You need to define CycleTimer for your OS and CPU
+uint64_t tsc;
+asm volatile("rdcycle %0 " : "=r"(tsc));
+return tsc;
+```
+
+5. Install pytorch and caffe2
 ```
 git clone https://github.com/pytorch/pytorch.git && cd pytorch
 git submodule update --init --recursive
