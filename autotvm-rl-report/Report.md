@@ -209,7 +209,7 @@ In the results above, as the features we use do not have the same shape for diff
 <em>DQN Reward Mean and DQN Reward Max</em>
 </p>
 
-The images below show the best tuning performance of five different algorithms versus the number of trials. We used the same RL agent and train the agent on each layer for ~200 trials starting from conv layer 0. RL converges faster than other algorithms on a few layers such as *1-64-56-56-128-64-1-1*, *1-256-14-14-512-256-3-3.csv*, *1-128-28-28-128-128-3-3* and *1-256-14-14-512-256-3-3*.  
+The images below show the best tuning performance of five different algorithms versus the number of trials. We used the same RL agent and train the agent on each layer for ~200 trials starting from conv layer 0. RL converges faster than other algorithms on a few layers such as *1-64-56-56-128-64-1-1*, *1-256-14-14-512-256-3-3*, *1-128-28-28-128-128-3-3* and *1-256-14-14-512-256-3-3*.  
 <p align="center">
 <img src="./resnet-18-layers.jpg" width="680"> 
 <br>
