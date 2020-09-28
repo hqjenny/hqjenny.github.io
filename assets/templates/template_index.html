@@ -21,51 +21,7 @@
 
 <body>
     <!-- Navigation bar -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarItems"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarItems">
-        <!--<ul class="navbar-nav ml-auto">-->
-        <ul class="navbar-nav mx-auto">
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="index.html" id="homeDropdown" aria-haspopup="true" aria-expanded="false">
-                  Home
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-                  <li><a class="dropdown-item" href="index.html#about">About</a></li>
-                  <li><a class="dropdown-item" href="index.html#news">News</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link "
-                href="students.html">Students</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link "
-                href="publication.html">Publications</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link "
-                   href="software.html">Software</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="teaching.html">Teaching</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link "
-                   href="awards.html">Awards</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="service.html">Services</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+{% include 'navbar.html' %}
 
     <div class="container">
         <div class="row justify-content-center" id="about">
@@ -77,7 +33,7 @@
                 <div>
                     <h1>Qijing Jenny Huang, Ph.D.</h1>
                     <h2>EECS, University of California, Berkeley</h2>
-                    <h3>qijing.huang@eecs.berkeley.edu</h3>
+                    <h3>qijing.huang [at] berkeley [.] edu</h3>
                     <br>
 
                     <h2>Address</h2>
@@ -102,98 +58,63 @@ Qijing Jenny Huang is a PhD student at the University of California, Berkeley, a
             <div class="col-md-12">
 
                 <div class="section_header">Education</div>
-                
+                {% for education in educations %}
                 <div class="experience">
                     <div class="exp_title_bold">
-                        University of Toronto
+                        {{education.title}}
                     </div>
                     <div class="exp_company">
-                        Bachelor of Applied Science, Electrical &amp; Computer Engineering
+                        {{education.company}}
                     </div>
                     <div class="exp_date_long">
-                        2015
+                        {{education.date}}
                     </div>
                 </div>
+                {%- endfor %}
 
                 <div class="section_header">Professional Experience</div>
-                
+                {% for job in jobs %}
                 <div class="experience">
                     <div class="exp_title_bold">
-                        Student Researcher
+                        {{job.title}}
                     </div>
                     <div class="exp_company">
-                        Google
+                        {{job.company}}
                     </div>
                     <div class="exp_date_long">
-                        May 2020 - Present
+                        {{job.date}}
                     </div>
                 </div>
-                <div class="experience">
-                    <div class="exp_title_bold">
-                        Hardware Engineer Intern
-                    </div>
-                    <div class="exp_company">
-                        Google
-                    </div>
-                    <div class="exp_date_long">
-                        May 2020 - Aug 2020
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="exp_title_bold">
-                        Research Intern
-                    </div>
-                    <div class="exp_company">
-                        Facebook
-                    </div>
-                    <div class="exp_date_long">
-                        May 2019 - Aug 2019
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="exp_title_bold">
-                        Graduate Lab Technician
-                    </div>
-                    <div class="exp_company">
-                        Intel Labs
-                    </div>
-                    <div class="exp_date_long">
-                        June 2016 - Aug 2016
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="exp_title_bold">
-                        Software Engineer
-                    </div>
-                    <div class="exp_company">
-                        Altera (Intel FPGA)
-                    </div>
-                    <div class="exp_date_long">
-                        May 2013 - Aug 2014
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="exp_title_bold">
-                        Research Assistant
-                    </div>
-                    <div class="exp_company">
-                        University of Toronto
-                    </div>
-                    <div class="exp_date_long">
-                        May 2012 - Aug 2012
-                    </div>
-                </div>
+                {%- endfor %}
 
             </div>
         </div>
         <div class="row" id="news">
             <div class="col-md-12">
+                {%- set max_news = 15 %}
                 <div class="section_header">Recent News</div>
+                {%- for new in news %}
+                {%- if loop.index < max_news %}
                 <div class="experience">
                     <div class="exp_title">
-                        date: Some Exciting News!
+                        {% if 'extlink' in new.keys() -%}
+                        {%- autoescape false -%}
+                        {%- set old_string = new.linktext -%}
+                        {%- set new_string = "<a href=\"" + new.extlink + "\" target=\"_blank\">" + new.linktext + "</a>" -%}
+                        {{ new.title|string|replace(old_string, new_string) }}
+                        {%- endautoescape -%}
+                        {%- else -%}
+                        {{new.title}}
+                        {%- endif %}
                     </div>
                 </div>
+                {%- endif %}
+                {%- endfor %}
+                {%- if news|length > max_news %}
+                <div id="news_more">
+                    <h5><a href="news.html">[more]</a></h5>
+                </div>
+                {%- endif %}
             </div>
         </div>
 

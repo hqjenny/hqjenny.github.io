@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Student Researcher",
+        "company": "Google",
+        "date": "May 2020 - Present"
+    },
+    {
+        "title": "Hardware Engineer Intern",
+        "company": "Google",
+        "date": "May 2020 - Aug 2020"
+    },
+    {
+        "title": "Research Intern",
+        "company": "Facebook",
+        "date": "May 2019 - Aug 2019"
+    },
+    {
+        "title": "Graduate Lab Technician",
+        "company": "Intel Labs",
+        "date": "June 2016 - Aug 2016"
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Altera (Intel FPGA)",
+        "date": "May 2013 - Aug 2014"
+    },
+    {
+        "title": "Research Assistant",
+        "company": "University of Toronto",
+        "date": "May 2012 - Aug 2012"
+    }
+]
