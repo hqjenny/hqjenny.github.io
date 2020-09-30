@@ -24,6 +24,13 @@
         "pdf": "https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-10.pdf"
     },
     {
+	    "title": "Centrifuge: Evaluating Full-system HLS-generated Heterogeneous-accelerator SoCs using FPGA-Acceleration",
+        "author": "Qijing Huang, Christopher Yarp, Sagar Karandikar, Nathan Pemberton, Benjamin Brock, Liang Ma, Guohao Dai, Robert Quitt, Krste Asanovic, John Wawrzynek",
+        "conference": "International Conference on Computer-Aided Design (ICCAD), 2019",
+        "pdf": "https://people.eecs.berkeley.edu/~qijing.huang/Centrifuge_ICCAD.pdf",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019ICCAD/2019ICCAD_Centrifuge_Presentation.pdf"
+    },
+    {
 	    "title": "AutoPhase: Compiler Phase-Ordering for HLS with Deep Reinforcement Learning",
         "author": "Qijing Huang*, Ameer Haj-Ali*, William Moses, John Xiang, Ion Stoica, Krste Asanovic, John Wawrzynek",
         "conference": "International Symposium on Field-Programmable Custom Computing Machines (FCCM), 2019",
