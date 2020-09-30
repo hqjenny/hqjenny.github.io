@@ -33,10 +33,10 @@
                 <div>
                     <h1>Qijing Jenny Huang, Ph.D.</h1>
                     <h2>EECS, University of California, Berkeley</h2>
-                    <h3>qijing.huang [at] berkeley [.] edu</h3>
+                    <h3>qijing.huang[at]berkeley[.]edu</h3>
                     <br>
 
-                    <h2>Address</h2>
+                    <h2>Soda Hall #565 ADEPT Lab, Berkeley, CA94720</h2>
                     <br>
                     <h5>
                         <a href="assets/cv/cv.pdf" target="_blank">[CV]</a>
@@ -89,35 +89,6 @@ Qijing Jenny Huang is a PhD student at the University of California, Berkeley, a
 
             </div>
         </div>
-        <div class="row" id="news">
-            <div class="col-md-12">
-                {%- set max_news = 15 %}
-                <div class="section_header">Recent News</div>
-                {%- for new in news %}
-                {%- if loop.index < max_news %}
-                <div class="experience">
-                    <div class="exp_title">
-                        {% if 'extlink' in new.keys() -%}
-                        {%- autoescape false -%}
-                        {%- set old_string = new.linktext -%}
-                        {%- set new_string = "<a href=\"" + new.extlink + "\" target=\"_blank\">" + new.linktext + "</a>" -%}
-                        {{ new.title|string|replace(old_string, new_string) }}
-                        {%- endautoescape -%}
-                        {%- else -%}
-                        {{new.title}}
-                        {%- endif %}
-                    </div>
-                </div>
-                {%- endif %}
-                {%- endfor %}
-                {%- if news|length > max_news %}
-                <div id="news_more">
-                    <h5><a href="news.html">[more]</a></h5>
-                </div>
-                {%- endif %}
-            </div>
-        </div>
-
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

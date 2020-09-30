@@ -1,6 +1,14 @@
 [
     {
-        "title": "Conference",
-        "date": "Year"
+        "title": "FPGA",
+        "date": "2020, 2019, 2018, 2016"
+    },
+    {
+        "title": "FPL",
+        "date": "2019"
+    },
+    {
+        "title": "FCCM",
+        "date": "2018"
     }
 ]

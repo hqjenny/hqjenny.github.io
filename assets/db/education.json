@@ -1,7 +1,12 @@
 [
     {
+        "title": "University of California, Berkeley",
+        "company": "Ph.D. of Computer Science",
+        "date": "Aug 2015 - Present"
+    },
+    {
         "title": "University of Toronto",
-        "company": "Bachelor of Applied Science, Electrical & Computer Engineering",
-        "date": "2015"
+        "company": "Bachelor of Applied Science + PEY, Electrical & Computer Engineering",
+        "date": "Sept 2010 - May 2015"
     }
 ]
