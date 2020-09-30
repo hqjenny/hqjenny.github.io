@@ -27,7 +27,7 @@
 
         <div class="row" id="teach">
             <div class="col-md-12">
-                <div class="section_header"></div>
+                <div class="section_header">Teaching Assistantship</div>
                 {% for teach in teaching %}
                 <div class="experience">
                     <div class="exp_title">
@@ -40,11 +40,11 @@
                       {%- else -%}
                       {{teach.title}}, {{teach.date}}
                       {%- endif %}
-                      <div class="pub_links">
-                           <a href="{{teach.extlink}}" class="pub_extlink"></a>
-                      </div>
-
                     </div>
+                  <div class="pub_links">
+                       <a href="{{teach.extlink}}" class="pub_extlink"></a>
+                  </div>
+
                 </div>
                 {%- endfor %}
             </div>
