@@ -5,10 +5,10 @@ $(function () {
 
     // Select Sophia's name from author list and highlight
     $(".pub_authors").html(function () {
-        re = /Yakun Sophia Shao/g;
+        re = /Qijing Huang/g;
         match_content = $(this).text().match(re)
         // return $(this).html().replace(match_content, '<strong>' + match_content + '</strong>')
-        return $(this).html().replace(match_content, '<div class="pub_sophia">' + match_content + '</div>')
+        return $(this).html().replace(match_content, '<div class="pub_jenny">' + match_content + '</div>')
     });
 
     // Append award icon before .exp_title .font-award

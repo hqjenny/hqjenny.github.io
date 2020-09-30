@@ -28,12 +28,12 @@ def main():
         news = json.load(f)
     with open('assets/db/education.json', 'r') as f:
         educations = json.load(f)
-    with open('assets/db/service_pc.json', 'r') as f:
-        service_pcs = json.load(f)
+    with open('assets/db/service_so.json', 'r') as f:
+        service_sos = json.load(f)
     with open('assets/db/service_epc.json', 'r') as f:
         service_epcs = json.load(f)
-    with open('assets/db/service_oc.json', 'r') as f:
-        service_ocs = json.load(f)
+    with open('assets/db/service_ae.json', 'r') as f:
+        service_aes = json.load(f)
     with open('assets/db/service_journal.json', 'r') as f:
         service_journals = json.load(f)
 
@@ -52,9 +52,9 @@ def main():
         softwares=softwares,
         teaching=teaching,
         news=news,
-        service_pcs=service_pcs,
+        service_sos=service_sos,
         service_epcs=service_epcs,
-        service_ocs=service_ocs,
+        service_aes=service_aes,
         service_journals=service_journals,
         page='index')
 
@@ -85,8 +85,8 @@ def main():
         phd_collaborators=phd_collaborators,
         undergrad_students=undergrad_students,
         page='students')
-    with open('students.html', 'w') as f:
-        f.write(rendered)
+    # with open('students.html', 'w') as f:
+    #     f.write(rendered)
 
     #teaching.html
     template = env.get_template('template_teaching.html')
@@ -100,9 +100,9 @@ def main():
     #service.html
     template = env.get_template('template_service.html')
     rendered = template.render(
-        service_pcs=service_pcs,
+        service_sos=service_sos,
         service_epcs=service_epcs,
-        service_ocs=service_ocs,
+        service_aes=service_aes,
         service_journals=service_journals,
         page='service')
     with open('service.html', 'w') as f:

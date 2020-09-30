@@ -1,8 +1,7 @@
 [
     {
-        "title": "Awesome Tutorial!",
-        "author": "Organizers",
-        "conference": "Conference",
-        "extlink": "index.html"
+        "title": "Deep Learning Accelerators and High-level Synthesis",
+        "conference": "EECS151/251 Introduction to Digital Design and Integrated Circuits",
+        "extlink": "https://inst.eecs.berkeley.edu//~eecs151/sp19/files/lec22-EECS251Leture-QijingHuang.pdf"
     }
 ]

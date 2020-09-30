@@ -56,18 +56,6 @@
                 </div>
                 {%- endfor %}
 
-                <div class="subsec_header">Organizing Committees</div>
-
-                {% for oc in service_ocs %}
-                <div class="experience">
-                    <div class="exp_title">
-                        {{oc.title}}
-                    </div>
-                    <div class="exp_date">
-                        {{oc.date}}
-                    </div>
-                </div>
-                {%- endfor %}
            -->
                 <div class="subsec_header">Conference Review</div>
 
@@ -83,8 +71,36 @@
                     {%- endif %}
                 </div>
                 {%- endfor %}
+
+                <div class="subsec_header">Artifact Evaluation</div>
+
+                {% for ae in service_aes %}
+                <div class="experience">
+                    <div class="exp_title">
+                        {{ae.title}}
+                    </div>
+                    <div class="exp_date">
+                        {{ae.date}}
+                    </div>
+                </div>
+                {%- endfor %}
+
+                <div class="subsec_header">Student Organization</div>
+
+                {% for so in service_sos %}
+                <div class="experience">
+                    <div class="exp_title">
+                        {{so.title}}
+                    </div>
+                    <div class="exp_date">
+                        {{so.date}}
+                    </div>
+                </div>
+                {%- endfor %}
+
             </div>
         </div>
+
 
     </div>
     <!-- Optional JavaScript -->
