@@ -15,7 +15,8 @@
 	    "title": "AutoPhase: Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning",
         "author": "Ameer Haj-Ali*, Qijing Huang*, William Moses, John Xiang, Ion Stoica, Krste Asanovic, John Wawrzynek",
         "conference": "Proceedings of Machine Learning and Systems 2 (MLSys), 2020",
-        "pdf": "https://arxiv.org/pdf/2003.00671.pdf"
+        "pdf": "https://arxiv.org/pdf/2003.00671.pdf",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2020MLSys/2020SysML_AutoPhase_Presentation.pdf"
     },
     {
 	    "title": "Algorithm-hardware Co-design for Deformable Convolution",
@@ -85,6 +86,7 @@
 	    "title": "The Effect of Compiler Optimizations on High-level Synthesis for FPGAs",
         "author": "Qijing Huang, Ruolong Lian, Andrew Canis, Jongsok Choi, Ryan Xi, Stephen Brown, Jason Anderson",
         "conference": "International Symposium on Field-Programmable Custom Computing Machines (FCCM), 2013",
-        "pdf": "http://legup.eecg.utoronto.ca/jennyfccm13.pdf"
+        "pdf": "http://legup.eecg.utoronto.ca/jennyfccm13.pdf",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2013FCCM/2013FCCM_OptHLS_Presentat"
     }
 ]
