@@ -21,13 +21,14 @@
 	    "title": "Algorithm-hardware Co-design for Deformable Convolution",
         "author": "Qijing Huang*, Dequan Wang*, Yizhao Gao, Yaohui Cai, Zhen Dong, Bichen Wu, Kurt Keutzer, John Wawrzynek",
         "conference": "5th Workshop on Energy Efficient Machine Learning and Cognitive Computing for Embedded Applications (EMC2), 2019",
-        "pdf": "https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-10.pdf"
+        "pdf": "https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-10.pdf",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019NeurIPS_EMC2/2019NeurIPS_EMC2_Deformable_Codesign_Presentation.pdf"
     },
     {
 	    "title": "Centrifuge: Evaluating Full-system HLS-generated Heterogeneous-accelerator SoCs using FPGA-Acceleration",
         "author": "Qijing Huang, Christopher Yarp, Sagar Karandikar, Nathan Pemberton, Benjamin Brock, Liang Ma, Guohao Dai, Robert Quitt, Krste Asanovic, John Wawrzynek",
         "conference": "International Conference on Computer-Aided Design (ICCAD), 2019",
-        "pdf": "https://people.eecs.berkeley.edu/~qijing.huang/Centrifuge_ICCAD.pdf",
+        "pdf": "https://people.eecs.berkeley.edu/~qijing.huang/2019ICCAD/2019ICCAD_Centrifuge.pdf",
         "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019ICCAD/2019ICCAD_Centrifuge_Presentation.pdf"
     },
     {
@@ -40,7 +41,8 @@
 	    "title": "Synetgy: Algorithm-hardware Co-design for ConvNet Accelerators on Embedded FPGAs",
         "author": "Yifan Yang, Qijing Huang, Bichen Wu, Tianjun Zhang, Liang Ma, Giulio Gambardella, Michaela Blott, Luciano Lavagno, Kees Vissers, John Wawrzynek, Kurt Keutzer",
         "conference": "International Symposium on Field-Programmable Gate Arrays (FPGA), 2019",
-        "pdf": "https://arxiv.org/abs/1811.08634.pdf"
+        "pdf": "https://arxiv.org/abs/1811.08634.pdf",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019FPGA/2019FPGA_Synetgy_Presentation.pdf"
     },
     {
 	    "title": "Integrating NVIDIA Deep Learning Accelerator (NVDLA) with RISC-V SoC on FireSim",
@@ -64,7 +66,8 @@
 	    "title": "Synthesis of Program Binaries into FPGA Accelerators with Runtime Dependence Validation",
         "author": "Shaoyi Cheng, Qijing Huang, John Wawrzynek",
         "conference": "International Conference on Field Programmable Technology (FPT), 2017 ",
-        "pdf": "https://ieeexplore.ieee.org/document/8280126"
+        "pdf": "https://ieeexplore.ieee.org/document/8280126",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2017FPT/2017FPT_BLS_Presentation.pdf"
     },
     {
 	    "title": "The Effect of Compiler Optimizations on High-level Synthesis-generated Hardware",
