@@ -1,5 +1,14 @@
 [
-
+    {
+	    "title": "CoSA: Scheduling by Constrained Optimization for Spatial Accelerators",
+        "author": "Qijing Huang, Minwoo Kang, Grace Dinh, Thomas Norell, Aravind Kalaiah, James Demmel, John Wawrzynek, Yakun Sophia Shao",
+        "conference": "To appear in International Symposium on Computer Architecture (ISCA), 2021"
+    },
+    {
+	    "title": "HAO: Hardware-Aware Neural Architecture Optimization for Efficient Inference",
+        "author": "Zhen Dong*, Yizhao Gao*, Qijing Huang, John Wawrzynek, Hayden So, Kurt Keutzer",
+        "conference": "To appear in Field-Programmable Custom Computing Machines (FCCM), 2021"
+    },
     {
 	    "title": "CoDeNet:  Efficient Deployment of Input-Adaptive Object Detection on FPGAs",
         "author": "Qijing Huang*, Dequan Wang*, Zhen Dong*, Yizhao Gao,  Yaohui Cai,  Tian Li, Bichen Wu, Kurt Keutzer, John Wawrzynek",
