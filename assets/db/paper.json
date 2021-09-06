@@ -2,7 +2,7 @@
     {
         "title": "HAWQ-V3: Dyadic Neural Network Quantization",
         "author": "Zhewei Yao, Zhen Dong, Zhangcheng Zheng, Amir Gholami, Jiali Yu, Eric Tan, Leyuan Wang, Qijing Huang, Yida Wang, Michael W. Mahoney, Kurt Keutzer",
-        "conference," : "International Conference on Machine Learning (ICML), 2021",
+        "conference" : "International Conference on Machine Learning (ICML), 2021",
         "pdf": "https://arxiv.org/abs/2011.10680"
     },
     {
