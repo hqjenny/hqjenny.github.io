@@ -1,5 +1,15 @@
 [
     {
+        "title": "Adaptive Test Generation for Fast Functional Coverage Closure",
+        "author": "Azade Nazi, Qijing Huang, Hamid Shojaei, Hodjat Asghari Esfeden, Azalia Mirhosseini, Richard Ho",
+        "conference" : "To appear in Design Verification Conference (DVCON), 2022"
+    },
+    {
+        "title": "Test Parameter Tuning with Blackbox Optimization: A Simple Yet Effective Way to Improve Coverage",
+        "author": "Qijing Huang, Hamid Shojaei, Fred Zyda, Azade Nazi, Shobha Vasudevan, Sat Chatterjee, Richard Ho",
+        "conference" : "To appear in Design Verification Conference (DVCON), 2022"
+    },
+    {
         "title": "HAWQ-V3: Dyadic Neural Network Quantization",
         "author": "Zhewei Yao, Zhen Dong, Zhangcheng Zheng, Amir Gholami, Jiali Yu, Eric Tan, Leyuan Wang, Qijing Huang, Yida Wang, Michael W. Mahoney, Kurt Keutzer",
         "conference" : "International Conference on Machine Learning (ICML), 2021",
