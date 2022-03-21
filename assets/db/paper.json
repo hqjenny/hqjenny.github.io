@@ -1,13 +1,18 @@
 [
     {
+        "title": "Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design",
+        "author": "Qijing Huang, Charles Hong, John Wawrzynek, Mahesh Subedar, Yakun Sophia Shao",
+        "conference" : "To appear in International Symposium on Performance Analysis of Systems and Software (ISPASS), 2022"
+    },
+    {
         "title": "Adaptive Test Generation for Fast Functional Coverage Closure",
         "author": "Azade Nazi, Qijing Huang, Hamid Shojaei, Hodjat Asghari Esfeden, Azalia Mirhosseini, Richard Ho",
-        "conference" : "To appear in Design Verification Conference (DVCON), 2022"
+        "conference" : "Design Verification Conference (DVCON), 2022"
     },
     {
         "title": "Test Parameter Tuning with Blackbox Optimization: A Simple Yet Effective Way to Improve Coverage",
         "author": "Qijing Huang, Hamid Shojaei, Fred Zyda, Azade Nazi, Shobha Vasudevan, Sat Chatterjee, Richard Ho",
-        "conference" : "To appear in Design Verification Conference (DVCON), 2022"
+        "conference" : "Design Verification Conference (DVCON), 2022"
     },
     {
         "title": "HAWQ-V3: Dyadic Neural Network Quantization",
