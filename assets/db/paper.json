@@ -4,7 +4,7 @@
         "author": "Qijing Huang, Charles Hong, John Wawrzynek, Mahesh Subedar, Yakun Sophia Shao",
         "conference" : "International Symposium on Performance Analysis of Systems and Software (ISPASS), 2022",
         "pdf": "https://people.eecs.berkeley.edu/~qijing.huang/2022ISPASS/2022ISPASS_VAESA.pdf",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2021ISPASS/2022ISPASS_VAESA_Presentation.pdf"
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2022ISPASS/2022ISPASS_VAESA_Presentation.pdf"
     },
     {
         "title": "Adaptive Test Generation for Fast Functional Coverage Closure",
