@@ -9,12 +9,15 @@
     {
         "title": "Adaptive Test Generation for Fast Functional Coverage Closure",
         "author": "Azade Nazi, Qijing Huang, Hamid Shojaei, Hodjat Asghari Esfeden, Azalia Mirhosseini, Richard Ho",
-        "conference" : "Design Verification Conference (DVCON), 2022"
+        "conference" : "Design Verification Conference (DVCON), 2022",
+        "pdf": "https://dvcon-proceedings.org/wp-content/uploads/Adaptive-Test-Generation-for-Fast-Functional-Coverage-Closure-1.pdf"
     },
     {
         "title": "Test Parameter Tuning with Blackbox Optimization: A Simple Yet Effective Way to Improve Coverage",
         "author": "Qijing Huang, Hamid Shojaei, Fred Zyda, Azade Nazi, Shobha Vasudevan, Sat Chatterjee, Richard Ho",
-        "conference" : "Design Verification Conference (DVCON), 2022"
+        "conference" : "Design Verification Conference (DVCON), 2022",
+        "pdf": "https://dvcon-proceedings.org/wp-content/uploads/Test-Parameter-Tuning-with-Blackbox-Optimization-A-Simple-Yet-Effective-Way-to-Improve-Coverage-1.pdf",
+        "ppt": "https://dvcon-proceedings.org/wp-content/uploads/Test-Parameter-Tuning-with-Blackbox-Optimization-A-Simple-Yet-Effective-Way-to-Improve-Coverage.pdf"
     },
     {
         "title": "HAWQ-V3: Dyadic Neural Network Quantization",
@@ -34,13 +37,15 @@
 	    "title": "HAO: Hardware-Aware Neural Architecture Optimization for Efficient Inference",
         "author": "Zhen Dong*, Yizhao Gao*, Qijing Huang, John Wawrzynek, Hayden So, Kurt Keutzer",
         "conference": "Field-Programmable Custom Computing Machines (FCCM), 2021",
-        "pdf": "https://arxiv.org/abs/2104.12766"
+        "pdf": "https://arxiv.org/abs/2104.12766",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2022ISPASS/2022ISPASS_VAESA_Presentation.pdf"
     },
     {
 	    "title": "CoDeNet: Efficient Deployment of Input-Adaptive Object Detection on FPGAs",
         "author": "Qijing Huang*, Dequan Wang*, Zhen Dong*, Yizhao Gao,  Yaohui Cai,  Tian Li, Bichen Wu, Kurt Keutzer, John Wawrzynek",
         "conference": "International Symposium on Field-Programmable Gate Arrays (FPGA), 2021",
-        "pdf": "https://arxiv.org/abs/2006.08357"
+        "pdf": "https://arxiv.org/abs/2006.08357",
+        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2021FPGA/2021CoDeNet_FPGA.pdf"
     },
     {
 	    "title": "BRU: Bandwidth Regulation Unit for Real-Time Multicore Processors",
