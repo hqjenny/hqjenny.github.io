@@ -1,5 +1,17 @@
 [
     {
+        "title": "Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms",
+        "author": "Qijing Huang, Po-An Tsai, Joel S Emer, Angshuman Parashar",
+        "conference": "International Symposium on Computer Architecture (ISCA), 2024",
+        "pdf": "https://people.csail.mit.edu/emer/media/papers/2024.06.isca.orojenesis.pdf"
+    },
+    {
+        "title": "DOSA: Differentiable Model-Based One-Loop Search for DNN Accelerators",
+        "author": "Charles Hong, Qijing Huang, Grace Dinh, Mahesh Subedar, Yakun Sophia Shao",
+        "conference" : "International Symposium on Microarchitecture (MICRO), 2023",
+        "pdf": "https://people.eecs.berkeley.edu/~ysshao/assets/papers/dosa-micro2023.pdf"
+    },
+    {
         "title": "Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design",
         "author": "Qijing Huang, Charles Hong, John Wawrzynek, Mahesh Subedar, Yakun Sophia Shao",
         "conference" : "International Symposium on Performance Analysis of Systems and Software (ISPASS), 2022",
