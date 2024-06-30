@@ -15,8 +15,8 @@
         "title": "Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design",
         "author": "Qijing Huang, Charles Hong, John Wawrzynek, Mahesh Subedar, Yakun Sophia Shao",
         "conference" : "International Symposium on Performance Analysis of Systems and Software (ISPASS), 2022",
-        "pdf": "https://people.eecs.berkeley.edu/~qijing.huang/2022ISPASS/2022ISPASS_VAESA.pdf",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2022ISPASS/2022ISPASS_VAESA_Presentation.pdf"
+        "pdf": "papers/2022ISPASS/2022ISPASS_VAESA.pdf",
+        "ppt": "papers/2022ISPASS/2022ISPASS_VAESA_Presentation.pdf"
     },
     {
         "title": "Adaptive Test Generation for Fast Functional Coverage Closure",
@@ -42,22 +42,22 @@
         "author": "Qijing Huang, Minwoo Kang, Grace Dinh, Thomas Norell, Aravind Kalaiah, James Demmel, John Wawrzynek, Yakun Sophia Shao",
         "conference": "International Symposium on Computer Architecture (ISCA), 2021",
         "pdf": "https://arxiv.org/abs/2105.01898",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2021ISCA/2022COSA_Presentation_Full.pdf",
-        "poster": "https://people.eecs.berkeley.edu/~qijing.huang/2021ISCA/2022COSA_Poster.pdf"
+        "ppt": "papers/2021ISCA/2022COSA_Presentation_Full.pdf",
+        "poster": "papers/2021ISCA/2022COSA_Poster.pdf"
     },
     {
 	    "title": "HAO: Hardware-Aware Neural Architecture Optimization for Efficient Inference",
         "author": "Zhen Dong*, Yizhao Gao*, Qijing Huang, John Wawrzynek, Hayden So, Kurt Keutzer",
         "conference": "Field-Programmable Custom Computing Machines (FCCM), 2021",
         "pdf": "https://arxiv.org/abs/2104.12766",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2022ISPASS/2022ISPASS_VAESA_Presentation.pdf"
+        "ppt": "papers/2022ISPASS/2022ISPASS_VAESA_Presentation.pdf"
     },
     {
 	    "title": "CoDeNet: Efficient Deployment of Input-Adaptive Object Detection on FPGAs",
         "author": "Qijing Huang*, Dequan Wang*, Zhen Dong*, Yizhao Gao,  Yaohui Cai,  Tian Li, Bichen Wu, Kurt Keutzer, John Wawrzynek",
         "conference": "International Symposium on Field-Programmable Gate Arrays (FPGA), 2021",
         "pdf": "https://arxiv.org/abs/2006.08357",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2021FPGA/2021CoDeNet_FPGA.pdf"
+        "ppt": "papers/2021FPGA/2021CoDeNet_FPGA.pdf"
     },
     {
 	    "title": "BRU: Bandwidth Regulation Unit for Real-Time Multicore Processors",
@@ -76,21 +76,21 @@
         "author": "Ameer Haj-Ali*, Qijing Huang*, William Moses, John Xiang, Ion Stoica, Krste Asanovic, John Wawrzynek",
         "conference": "Proceedings of Machine Learning and Systems 2 (MLSys), 2020",
         "pdf": "https://arxiv.org/abs/2003.00671",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2020MLSys/2020SysML_AutoPhase_Presentation.pdf"
+        "ppt": "papers/2020MLSys/2020SysML_AutoPhase_Presentation.pdf"
     },
     {
 	    "title": "Algorithm-hardware Co-design for Deformable Convolution",
         "author": "Qijing Huang*, Dequan Wang*, Yizhao Gao, Yaohui Cai, Zhen Dong, Bichen Wu, Kurt Keutzer, John Wawrzynek",
         "conference": "5th Workshop on Energy Efficient Machine Learning and Cognitive Computing for Embedded Applications (EMC2), 2019",
         "pdf": "https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-10.pdf",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019NeurIPS_EMC2/2019NeurIPS_EMC2_Deformable_Codesign_Presentation.pdf"
+        "ppt": "papers/2019NeurIPS_EMC2/2019NeurIPS_EMC2_Deformable_Codesign_Presentation.pdf"
     },
     {
 	    "title": "Centrifuge: Evaluating Full-system HLS-generated Heterogeneous-accelerator SoCs using FPGA-Acceleration",
         "author": "Qijing Huang, Christopher Yarp, Sagar Karandikar, Nathan Pemberton, Benjamin Brock, Liang Ma, Guohao Dai, Robert Quitt, Krste Asanovic, John Wawrzynek",
         "conference": "International Conference on Computer-Aided Design (ICCAD), 2019",
-        "pdf": "https://people.eecs.berkeley.edu/~qijing.huang/2019ICCAD/2019ICCAD_Centrifuge.pdf",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019ICCAD/2019ICCAD_Centrifuge_Presentation.pdf"
+        "pdf": "papers/2019ICCAD/2019ICCAD_Centrifuge.pdf",
+        "ppt": "papers/2019ICCAD/2019ICCAD_Centrifuge_Presentation.pdf"
     },
     {
 	    "title": "AutoPhase: Compiler Phase-Ordering for HLS with Deep Reinforcement Learning",
@@ -103,7 +103,7 @@
         "author": "Yifan Yang, Qijing Huang, Bichen Wu, Tianjun Zhang, Liang Ma, Giulio Gambardella, Michaela Blott, Luciano Lavagno, Kees Vissers, John Wawrzynek, Kurt Keutzer",
         "conference": "International Symposium on Field-Programmable Gate Arrays (FPGA), 2019",
         "pdf": "https://arxiv.org/abs/1811.08634",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2019FPGA/2019FPGA_Synetgy_Presentation.pdf"
+        "ppt": "papers/2019FPGA/2019FPGA_Synetgy_Presentation.pdf"
     },
     {
 	    "title": "Integrating NVIDIA Deep Learning Accelerator (NVDLA) with RISC-V SoC on FireSim",
@@ -129,7 +129,7 @@
         "author": "Shaoyi Cheng, Qijing Huang, John Wawrzynek",
         "conference": "International Conference on Field Programmable Technology (FPT), 2017 ",
         "pdf": "https://ieeexplore.ieee.org/document/8280126",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2017FPT/2017FPT_BLS_Presentation.pdf",
+        "ppt": "papers/2017FPT/2017FPT_BLS_Presentation.pdf",
         "award":"Best Paper Award"
     },
     {
@@ -149,6 +149,6 @@
         "author": "Qijing Huang, Ruolong Lian, Andrew Canis, Jongsok Choi, Ryan Xi, Stephen Brown, Jason Anderson",
         "conference": "International Symposium on Field-Programmable Custom Computing Machines (FCCM), 2013",
         "pdf": "https://janders.eecg.utoronto.ca/pdfs/jennyfccm13.pdf",
-        "ppt": "https://people.eecs.berkeley.edu/~qijing.huang/2013FCCM/2013FCCM_OptHLS_Presentation.pdf"
+        "ppt": "papers/2013FCCM/2013FCCM_OptHLS_Presentation.pdf"
     }
 ]
