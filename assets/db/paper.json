@@ -3,7 +3,10 @@
         "title": "Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms",
         "author": "Qijing Huang, Po-An Tsai, Joel S Emer, Angshuman Parashar",
         "conference": "International Symposium on Computer Architecture (ISCA), 2024",
-        "pdf": "https://people.csail.mit.edu/emer/media/papers/2024.06.isca.orojenesis.pdf"
+        "pdf": "https://people.csail.mit.edu/emer/media/papers/2024.06.isca.orojenesis.pdf",
+        "ppt": "papers/2024ISCA/2024ISCA_Orojensis_Presentation.pdf",
+        "poster": "papers/2024ISCA/2024ISCA_Orojensis_Poster.pdf",
+        "award":"Best Paper Nominee"
     },
     {
         "title": "DOSA: Differentiable Model-Based One-Loop Search for DNN Accelerators",
